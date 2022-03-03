@@ -160,7 +160,7 @@ namespace WindowsFormsApp1
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(40, 32);
             this.button10.TabIndex = 10;
-            this.button10.Text = "√";
+            this.button10.Text = "sqrt";
             this.button10.UseVisualStyleBackColor = true;
             // 
             // button11
