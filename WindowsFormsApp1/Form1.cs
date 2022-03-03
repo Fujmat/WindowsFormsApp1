@@ -183,5 +183,10 @@ namespace WindowsFormsApp1
                 textBox1.Text = Convert.ToString(count2);
             }
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

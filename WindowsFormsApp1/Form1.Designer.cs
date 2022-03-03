@@ -62,11 +62,13 @@ namespace WindowsFormsApp1
             // 
             // textBox1
             // 
+            this.textBox1.ForeColor = System.Drawing.SystemColors.GrayText;
             this.textBox1.Location = new System.Drawing.Point(30, 12);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(224, 20);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "0";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
